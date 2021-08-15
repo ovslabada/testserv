@@ -36,7 +36,7 @@ app.put('/catalog', jsonParser , (req, res) => {
   });
 })
 
-app.post('/cart', jsonParser , (req, res) => {
+/* app.post('/cart', jsonParser , (req, res) => {
   fs.readFile('./data/cart.json', 'utf8', (err, data) => { // первый парамерт - файл, третий - данные из этого файла
     const cart = JSON.parse(data); // мы прочитали и преобразовали все, что было в json кархины. и сохранили это в массив карзины
     if (req.body.quantity > 0) {
@@ -47,7 +47,7 @@ app.post('/cart', jsonParser , (req, res) => {
       res.end(); // ответ браузеру, что всё ок
     })
   });
-})
+}) */
 
 app.put('/cart', jsonParser , (req, res) => {
   fs.readFile('./data/cart.json', 'utf8', (err, data) => {

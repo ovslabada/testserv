@@ -6,8 +6,7 @@
 		"product_price": "51.00",
 		"product_images": "img/catalog/item_1.jpg",
 		"product_link": "product.html",
-		"quantity": 0,
-		"in_cart": 0
+		"quantity": 0
 	},
 	{
 		"product_id": 2,
@@ -16,8 +15,7 @@
 		"product_price": "52.00",
 		"product_images": "img/catalog/item_2.jpg",
 		"product_link": "product.html",
-		"quantity": 4,
-		"in_cart": 0
+		"quantity": 4
 	},
 	{
 		"product_id": 3,
@@ -26,8 +24,7 @@
 		"product_price": "53.00",
 		"product_images": "img/catalog/item_3.jpg",
 		"product_link": "product.html",
-		"quantity": 3,
-		"in_cart": 0
+		"quantity": 3
 	},
 	{
 		"product_id": 4,
@@ -36,8 +33,7 @@
 		"product_price": "54.00",
 		"product_images": "img/catalog/item_4.jpg",
 		"product_link": "product.html",
-		"quantity": 1,
-		"in_cart": 0
+		"quantity": 1
 	},
 	{
 		"product_id": 5,
@@ -46,8 +42,7 @@
 		"product_price": "55.00",
 		"product_images": "img/catalog/item_5.jpg",
 		"product_link": "product.html`",
-		"quantity": 3,
-		"in_cart": 0
+		"quantity": 3
 	},
 	{
 		"product_id": 6,
@@ -56,7 +51,6 @@
 		"product_price": "56.00",
 		"product_images": "img/catalog/item_6.jpg",
 		"product_link": "product.html",
-		"quantity": 2,
-		"in_cart": 0
+		"quantity": 2
 	}
 ]

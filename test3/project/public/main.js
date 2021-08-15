@@ -11,21 +11,25 @@ const vue = new Vue({
     methods: {
         addHandler(good) {
 
+            let index;
+
             if (good.quantity > 0) {
-                
-                switch (good.in_cart) {
-                    case 0:
-                        this.cart.push(good);   
-                    default:
-                        good.in_cart++
+                index = this.cart.findIndex((item) => item.product_id == good.product_id);
+                if (index != -1) {
+                    this.cart[index].in_cart++;
+                    this.cart[index].quantity--;
+                } else {
+                    let goodToCart = Object.assign({}, good);
+                    goodToCart.in_cart = 1;
+                    goodToCart.quantity--;
+
+                    this.cart.push(goodToCart);
                 }
 
-                for (let i = this.catalog.length; i--; ) {
-                    if (this.catalog[i].product_id == good.product_id) {
-                        this.catalog[i].quantity--;
-                    }
-                };
-                
+                index = this.catalog.findIndex((item) => item.product_id == good.product_id);
+                if (index != -1) {
+                    this.catalog[index].quantity--;
+                }
             }
             
             fetch('/cart', {
@@ -68,7 +72,12 @@ const vue = new Vue({
                 if (this.catalog[i].product_id == good.product_id) {
                     this.catalog[i].quantity++;
                 }
-            };                
+            };
+            
+            index = this.cart.findIndex((item) => item.product_id == good.product_id);
+                if (index != -1) {
+                    this.cart[index].quantity++;
+                }
 
             fetch('/cart', {
                 method: 'PUT',

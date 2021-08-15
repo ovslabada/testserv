@@ -1,1 +1,62 @@
-[{"product_id":1,"product_title":"Jacket","product_description":"dolore perferendis? Esse quos perspiciatis iure eaque eum cumque pariatur culpa saepe molestiae magnam recusandae omnis quisquam, dolores quibusdam.","product_price":"51.00","product_images":"img/catalog/item_1.jpg","product_link":"product.html","quantity":0,"in_cart":0},{"product_id":2,"product_title":"Dress","product_description":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, in. Doloremque incidunt dolor rerum expedita delectus eum facere vitae magnam odit!","product_price":"52.00","product_images":"img/catalog/item_2.jpg","product_link":"product.html","quantity":4,"in_cart":0},{"product_id":3,"product_title":"Sweatshirt","product_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laborum blanditiis officia nam voluptate quos minus","product_price":"53.00","product_images":"img/catalog/item_3.jpg","product_link":"product.html","quantity":0,"in_cart":4},{"product_id":4,"product_title":"T-shirt","product_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum totam dolore iusto quia quae unde distinctio est aliquid soluta reprehenderit.","product_price":"54.00","product_images":"img/catalog/item_4.jpg","product_link":"product.html","quantity":1,"in_cart":0},{"product_id":5,"product_title":"Blazer","product_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia sequi sit! Possimus dignissimos veritatis architecto temporibus.","product_price":"55.00","product_images":"img/catalog/item_5.jpg","product_link":"product.html`","quantity":3,"in_cart":0},{"product_id":6,"product_title":"Blazer small","product_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore esse libero incidunt corrupti doloremque cumque tempora, quisquam in ullam non ab.","product_price":"56.00","product_images":"img/catalog/item_6.jpg","product_link":"product.html","quantity":4,"in_cart":0}]
+[
+	{
+		"product_id": 1,
+		"product_title": "Jacket",
+		"product_description": "dolore perferendis? Esse quos perspiciatis iure eaque eum cumque pariatur culpa saepe molestiae magnam recusandae omnis quisquam, dolores quibusdam.",
+		"product_price": "51.00",
+		"product_images": "img/catalog/item_1.jpg",
+		"product_link": "product.html",
+		"quantity": 0,
+		"in_cart": 0
+	},
+	{
+		"product_id": 2,
+		"product_title": "Dress",
+		"product_description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, in. Doloremque incidunt dolor rerum expedita delectus eum facere vitae magnam odit!",
+		"product_price": "52.00",
+		"product_images": "img/catalog/item_2.jpg",
+		"product_link": "product.html",
+		"quantity": 4,
+		"in_cart": 0
+	},
+	{
+		"product_id": 3,
+		"product_title": "Sweatshirt",
+		"product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laborum blanditiis officia nam voluptate quos minus",
+		"product_price": "53.00",
+		"product_images": "img/catalog/item_3.jpg",
+		"product_link": "product.html",
+		"quantity": 3,
+		"in_cart": 0
+	},
+	{
+		"product_id": 4,
+		"product_title": "T-shirt",
+		"product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus harum totam dolore iusto quia quae unde distinctio est aliquid soluta reprehenderit.",
+		"product_price": "54.00",
+		"product_images": "img/catalog/item_4.jpg",
+		"product_link": "product.html",
+		"quantity": 1,
+		"in_cart": 0
+	},
+	{
+		"product_id": 5,
+		"product_title": "Blazer",
+		"product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex mollitia sequi sit! Possimus dignissimos veritatis architecto temporibus.",
+		"product_price": "55.00",
+		"product_images": "img/catalog/item_5.jpg",
+		"product_link": "product.html`",
+		"quantity": 3,
+		"in_cart": 0
+	},
+	{
+		"product_id": 6,
+		"product_title": "Blazer small",
+		"product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore esse libero incidunt corrupti doloremque cumque tempora, quisquam in ullam non ab.",
+		"product_price": "56.00",
+		"product_images": "img/catalog/item_6.jpg",
+		"product_link": "product.html",
+		"quantity": 2,
+		"in_cart": 0
+	}
+]

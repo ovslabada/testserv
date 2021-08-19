@@ -4,8 +4,10 @@ const vue = new Vue({
     el: '#app',
     data() {
         return {
+            searchIn: '',
             catalog: [],
-            cart: []
+            cart: [],
+            searchGoods: [],
         }
     },
     methods: {
@@ -94,6 +96,17 @@ const vue = new Vue({
                 },
                 body: JSON.stringify(this.catalog)
             })
+        },
+        searchGood () {
+            this.searchGoods =[];
+            let regSearch = new RegExp(this.searchIn, 'i');
+            this.catalog.forEach((good) => {    
+                 if (regSearch.test(good.product_title)) {
+                    this.searchGoods.push(good);
+                 } 
+            })
+            console.log(this.searchGoods);
+            this.searchIn = '';
         }
     },
     mounted() {

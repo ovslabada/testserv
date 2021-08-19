@@ -9,9 +9,18 @@
 <body>
     <h1>Statik Page</h1>
 <div id="app">
-    <div class="catalog" v-for="good of catalog">
-        {{ good.product_title }} : {{ good.product_price }} <button v-on:click="addHandler(good)">Add</button> <!--  не вызов функции, мы передаем просто параметр. особенность js -->
-    </div>
+    <input v-model="searchIn" type="text">
+    <button v-on:click="searchGood">Search</button>
+    <template v-if="searchGoods.length">
+        <div class="catalog" v-for="good of searchGoods">
+            {{ good.product_title }} : {{ good.product_price }} <button v-on:click="addHandler(good)">Add</button> <!--  не вызов функции, мы передаем просто параметр. особенность js -->
+        </div>
+    </template>
+    <template v-else>
+        <div class="catalog" v-for="good of catalog">
+            {{ good.product_title }} : {{ good.product_price }} <button v-on:click="addHandler(good)">Add</button> <!--  не вызов функции, мы передаем просто параметр. особенность js -->
+        </div>
+    </template>       
     <hr/>
     <div class="cart" v-for="good of cart">
         {{ good.product_title }} : {{ good.product_price }} x {{ good.in_cart }} <button v-on:click="delHandler(good)">Del</button>
